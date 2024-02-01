@@ -132,23 +132,45 @@ img {
 }
 
 .about {
-    margin: 130px auto;
+    margin: 130px 0px;
     height: 550px;
     border-radius: 10px;
     background: #FFF8F3;
     padding: 0px 157px 0px 157px;
-    
-    
+
+
 }
 
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
 
-.about-info-container{
+.about-info-container {
     display: flex;
     max-width: 827px;
     justify-content: space-around;
     text-align: center;
+}
+
+.what-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.what-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+    padding: 30px 115px;
+}
+
+
+.icon{
+    width: 100%;
 }
